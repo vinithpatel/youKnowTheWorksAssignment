@@ -1,0 +1,219 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+* {
+  color: #021f5f;
+}
+
+.bg-container {
+  min-height: 100vh;
+  width: 100vw;
+  background-color: #ffa1a9;
+}
+
+@media (min-width: 768px) {
+  .bg-container {
+    width: 664px;
+  }
+}
+
+.container-icon-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.icon-card {
+  width: 60px;
+  height: 60px;
+  border: 3px solid #021f5f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.fontawesome-icon {
+  font-size: 30px;
+  color: #021f5f;
+}
+
+@media (min-width: 768px) {
+  .icon-card {
+    width: 80px;
+    height: 80px;
+  }
+
+  .fontawesome-icon {
+    font-size: 40px;
+    color: #021f5f;
+  }
+}
+
+.uppercase-para {
+  font-size: 12px;
+  margin-bottom: 0px;
+}
+
+.icon-para {
+  font-size: 12px;
+  margin-bottom: 0px;
+  text-align: center;
+  width: 50px;
+}
+
+.container-right-card {
+  width: 100%;
+  border-bottom: 3px solid #021f5f;
+}
+
+.name-card {
+  border-right: 3px solid #021f5f;
+}
+
+.person-name {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.paragraph {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+@media (min-width: 768px) {
+  .person-name {
+    font-size: 30px;
+  }
+
+  .paragraph {
+    font-size: 12px;
+  }
+}
+
+.unordered-list {
+  width: 100%;
+  list-style-type: none;
+  padding: 0px;
+  margin: 0px;
+}
+
+.work-duration {
+  width: 20px;
+
+  font-size: 8px;
+  margin-right: 8px;
+  margin-top: 6px;
+}
+
+.work-company {
+  font-size: 10px;
+  font-weight: 600;
+  margin-bottom: 0px;
+}
+
+@media (min-width: 768px) {
+  .work-duration {
+    width: 80px;
+
+    font-size: 12px;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+
+  .work-company {
+    font-size: 12px;
+  }
+}
+
+.dot {
+  width: 5px;
+  height: 5px;
+  background-color: #021f5f;
+  border-radius: 50%;
+  margin-right: 6px;
+}
+
+@media (min-width: 768px) {
+  .dot {
+    width: 10px;
+    height: 10px;
+  }
+}
+
+.skills-card {
+  border-right: 3px solid #021f5f;
+}
+
+.award-text {
+  font-size: 10px;
+  font-weight: 600;
+  margin: 0px;
+  padding: 0px;
+}
+
+.award-year {
+  margin-top: 10px;
+  margin-right: 10px;
+  font-size: 8px;
+}
+
+@media (min-width: 768px) {
+  .award-text {
+    font-size: 12px;
+  }
+
+  .award-year {
+    font-size: 12px;
+  }
+}
+
+.interest-icon-card {
+  width: 50px;
+  height: 50px;
+  background-color: #021f5f;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.interest-icon {
+  font-size: 25px;
+  color: #ffa1a9;
+}
+
+@media (min-width: 768px) {
+  .interest-icon-card {
+    width: 80px;
+    height: 80px;
+  }
+
+  .interest-icon {
+    font-size: 40px;
+    color: #ffa1a9;
+  }
+}
+
+.skills-paragraph {
+  font-size: 10px;
+  margin: 0px;
+  width: 60px;
+}
+
+@media (min-width: 768px) {
+  .skills-paragraph {
+    width: 120px;
+    font-size: 12px;
+  }
+}
+
+.dot-separation {
+  width: 3px;
+  height: 3px;
+  background-color: #021f5f;
+  border-radius: 50%;
+  margin-left: 3px;
+  margin-right: 3px;
+}
